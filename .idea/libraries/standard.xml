@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="standard">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/lib/standard.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

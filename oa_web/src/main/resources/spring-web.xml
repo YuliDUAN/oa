@@ -1,4 +1,4 @@
-<beans xmlns="http://www.springframework.org/schema/beans"
+﻿<beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
@@ -11,8 +11,7 @@
 
     <import resource="spring-biz.xml"/>
 
-    <context:component-scan base-package="com.dk.controller"/>
-
+    <context:component-scan base-package="com.imooc.oa.controller"/>
     <mvc:annotation-driven/>
 
     <mvc:default-servlet-handler/>
@@ -23,11 +22,11 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <!--配置拦截器,拦截所有访问
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
-            <bean class="com.dk.global.LoginInterceptor"/>
+            <bean class="com.imooc.oa.global.LoginInterceptor"/>
         </mvc:interceptor>
-    </mvc:interceptors>-->
+    </mvc:interceptors>
+
 </beans>

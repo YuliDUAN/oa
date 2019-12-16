@@ -4,19 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>oa</artifactId>
-        <groupId>com.dk</groupId>
+        <groupId>com.imooc</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>oa_biz</artifactId>
-
     <dependencies>
         <dependency>
-            <groupId>com.dk</groupId>
+            <groupId>com.imooc</groupId>
             <artifactId>oa_dao</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
@@ -30,8 +30,9 @@
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
-            <version>1.8.9</version>
+            <version>1.8.0</version>
         </dependency>
     </dependencies>
+
 
 </project>

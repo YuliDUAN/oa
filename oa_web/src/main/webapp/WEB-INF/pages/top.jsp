@@ -8,7 +8,7 @@
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
 
-    <title> 报销单OA--欢迎使用OA系统 </title>
+    <title> 爱慕课OA--欢迎使用爱慕课OA系统 </title>
 
     <link rel="stylesheet" type="text/css" href="/assets/skin/default_skin/css/theme.css">
     <link rel="stylesheet" type="text/css" href="/assets/admin-tools/admin-forms/css/admin-forms.css">
@@ -20,7 +20,7 @@
     <header class="navbar navbar-fixed-top navbar-shadow">
         <div class="navbar-branding">
             <a class="navbar-brand" href="dashboard.html">
-                <b>报销单</b>OA
+                <b>爱慕课</b>OA
             </a>
             <span id="toggle_sidemenu_l" class="ad ad-lines"></span>
         </div>

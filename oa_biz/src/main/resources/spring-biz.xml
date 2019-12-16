@@ -1,4 +1,4 @@
-<beans xmlns="http://www.springframework.org/schema/beans"
+﻿<beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:aop="http://www.springframework.org/schema/aop"
@@ -14,14 +14,14 @@
 
     <import resource="spring-dao.xml"/>
 
-    <context:component-scan base-package="com.dk.biz"/>
+    <context:component-scan base-package="com.imooc.oa.biz"/>
     <aop:aspectj-autoproxy/>
-    <!--配置声明式事务-->
-        <!--事务管理器-->
+
+
     <bean id="transationManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
     </bean>
-    <!--声明通知-->
+
     <tx:advice id="txAdvice" transaction-manager="transationManager">
         <tx:attributes>
             <tx:method name="get*" read-only="true"/>
@@ -30,9 +30,9 @@
             <tx:method name="*" propagation="REQUIRED"/>
         </tx:attributes>
     </tx:advice>
-    <!--过滤器-->
+
     <aop:config>
-        <aop:pointcut id="txpc" expression="execution(* com.dk.biz.*.*(..))"/>
+        <aop:pointcut id="txpc" expression="execution(* com.imooc.oa.biz.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="txpc"/>
     </aop:config>
 
