@@ -6,20 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="解决500错误">
+    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="添加报销单模块">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_biz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_biz/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_biz/src/main/resources/spring-biz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_biz/src/main/resources/spring-biz.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_biz/target/classes/spring-biz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_biz/target/classes/spring-biz.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_dao/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_dao/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_dao/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_dao/target/classes/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/resources/spring-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/resources/spring-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,15 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_update.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
-              <caret line="68" column="66" lean-forward="true" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/department_add.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,9 +86,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/self.jsp">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -130,6 +119,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -212,9 +204,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="25" />
-    <option name="y" value="7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="317" />
+    <option name="y" value="28" />
     <option name="width" value="1415" />
     <option name="height" value="930" />
   </component>
@@ -627,7 +619,7 @@
       <workItem from="1576060541229" duration="396000" />
       <workItem from="1576505585744" duration="1232000" />
       <workItem from="1576541417801" duration="1615000" />
-      <workItem from="1576544635860" duration="1042000" />
+      <workItem from="1576544635860" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="解决500错误">
       <created>1576506806146</created>
@@ -636,22 +628,28 @@
       <option name="project" value="LOCAL" />
       <updated>1576506806146</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加报销单模块">
+      <created>1576545718433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576545718433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111313000" />
+    <option name="totallyTimeSpent" value="111627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="445" y="46" width="1132" height="744" extended-state="0" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21879195" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30410448" />
       <window_info id="Structure" order="6" weight="0.25" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3298969" />
@@ -662,7 +660,7 @@
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.14387465" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3338816" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.2736573" />
       <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
@@ -689,7 +687,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="解决500错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决500错误" />
+    <MESSAGE value="添加报销单模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加报销单模块" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/oa_dao/src/main/resources/com/imooc/oa/dao/DealRecordDao.xml">
@@ -712,14 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1029,6 +1020,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/self.jsp">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
