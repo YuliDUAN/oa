@@ -6,7 +6,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.imooc.oa.dao"/>
+    <context:component-scan base-package="com.dk.oa.dao"/>
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
@@ -17,12 +17,12 @@
 
     <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="typeAliasesPackage" value="com.imooc.oa.entity"/>
+        <property name="typeAliasesPackage" value="com.dk.oa.entity"/>
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sessionFactory"/>
-        <property name="basePackage" value="com.imooc.oa.dao"/>
+        <property name="basePackage" value="com.dk.oa.dao"/>
     </bean>
 
 </beans>

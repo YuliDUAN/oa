@@ -11,7 +11,7 @@
 
     <import resource="spring-biz.xml"/>
 
-    <context:component-scan base-package="com.imooc.oa.controller"/>
+    <context:component-scan base-package="com.dk.oa.controller"/>
     <mvc:annotation-driven/>
 
     <mvc:default-servlet-handler/>
@@ -25,7 +25,7 @@
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
-            <bean class="com.imooc.oa.global.LoginInterceptor"/>
+            <bean class="com.dk.oa.global.LoginInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
 
