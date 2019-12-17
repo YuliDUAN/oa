@@ -8,7 +8,7 @@
         <result property="name" column="name" javaType="String"/>
         <result property="departmentSn" column="department_sn" javaType="String"/>
         <result property="post" column="post" javaType="String"/>
-        <association property="department" column="department_sn" javaType="Department" >
+        <association property="department" column="department_sn" javaType="Department">
             <id property="sn" column="dsn" javaType="String"/>
             <result property="name" column="dname" javaType="String"/>
         </association>
@@ -35,6 +35,7 @@
     <select id="selectAll" resultMap="employee">
         select e.*,d.sn dsn,d.name dname from employee e left join department d on d.sn=e.department_sn
     </select>
+
     <select id="selectByDepartmentAndPost" resultMap="employee">
         select e.*,d.sn dsn,d.name dname from employee e left join department d on d.sn=e.department_sn
         where e.sn is not NULL

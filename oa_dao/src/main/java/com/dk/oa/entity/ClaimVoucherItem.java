@@ -1,15 +1,19 @@
 package com.dk.oa.entity;
 
+//报销单条目（一个报销单的详细信息）
 public class ClaimVoucherItem {
     private Integer id;
-
+    //报销单编号（用于管理报销单）
     private Integer claimVoucherId;
 
+    //类型
     private String item;
-
+    //金额
     private Double amount;
-
+    //说明
     private String comment;
+
+    public ClaimVoucherItem(){}
 
     public Integer getId() {
         return id;

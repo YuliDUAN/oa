@@ -3,6 +3,7 @@ package com.dk.oa.global;
 import java.util.ArrayList;
 import java.util.List;
 
+//项目中会用到的一些常量
 public class Contant {
     //职务
     public static final String POST_STAFF="员工";

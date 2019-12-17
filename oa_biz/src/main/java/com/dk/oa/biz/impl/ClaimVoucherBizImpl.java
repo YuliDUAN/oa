@@ -28,14 +28,20 @@ public class ClaimVoucherBizImpl implements ClaimVoucherBiz {
     @Autowired
     private EmployeeDao employeeDao;
 
+    //保存报销单
     @Override
     public void save(ClaimVoucher claimVoucher, List<ClaimVoucherItem> items) {
+        //设置创建时间为系统当前时间
         claimVoucher.setCreateTime(new Date());
+        //待处理人设置为创建者
         claimVoucher.setNextDealSn(claimVoucher.getCreateSn());
+        //设置报销单状态
         claimVoucher.setStatus(Contant.CLAIMVOUCHER_CREATED);
+        //保存到数据库
         claimVoucherDao.insert(claimVoucher);
 
         for (ClaimVoucherItem item : items) {
+            //报销单编号
             item.setClaimVoucherId(claimVoucher.getId());
             claimVoucherItemDao.insert(item);
         }
@@ -76,7 +82,7 @@ public class ClaimVoucherBizImpl implements ClaimVoucherBiz {
         for (ClaimVoucherItem old : olds) {
             boolean isHave = false;
             for (ClaimVoucherItem item : items) {
-                if (item.getId() == old.getId()) {
+                if (item.getId().equals(old.getId())) {
                     isHave = true;
                     break;
                 }

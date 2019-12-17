@@ -14,7 +14,9 @@ public interface DepartmentDao {
 
     void delete(String sn);
 
+    //根据id查询部门
     Department select(String sn);
 
+    //查询所有部门
     List<Department> selectAll();
 }

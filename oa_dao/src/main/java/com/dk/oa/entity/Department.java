@@ -7,6 +7,8 @@ public class Department {
 
     private String address;
 
+    public Department(){}
+
     public String getSn() {
         return sn;
     }

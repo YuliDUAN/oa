@@ -11,6 +11,8 @@ public class Employee {
 
     private String post;
 
+    public Employee(){}
+
     public String getSn() {
         return sn;
     }

@@ -18,7 +18,9 @@ public interface ClaimVoucherDao {
 
     ClaimVoucher select(int id);
 
+    //根据创建者查询报销单
     List<ClaimVoucher> selectByCreateSn(String csn);
 
+    //根据处理人查询报销单
     List<ClaimVoucher> selectByNextDealSn(String ndsn);
 }

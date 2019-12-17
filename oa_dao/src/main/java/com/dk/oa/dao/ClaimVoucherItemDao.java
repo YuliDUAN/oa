@@ -15,5 +15,6 @@ public interface ClaimVoucherItemDao {
 
     void delete(int id);
 
+    //根据报销单编号查询，报销单的详细信息
     List<ClaimVoucherItem> selectByClaimVoucher(int cvid);
 }
