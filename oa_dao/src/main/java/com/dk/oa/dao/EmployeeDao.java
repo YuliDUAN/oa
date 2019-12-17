@@ -20,6 +20,6 @@ public interface EmployeeDao {
 
     List<Employee> selectAll();
 
-    //根据部门查询所有部门经理
+    //根据部门和职位获取员工
     List<Employee> selectByDepartmentAndPost(@Param("dsn") String dsn, @Param("post") String post);
 }

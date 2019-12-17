@@ -20,14 +20,18 @@ public interface ClaimVoucherBiz {
     //审核记录
     List<DealRecord> getRecords(int cvid);
 
-    //
+    //获取个人报销单
     List<ClaimVoucher> getForSelf(String sn);
 
+    //获取待处理报销单
     List<ClaimVoucher> getForDeal(String sn);
 
+    //修改报销单
     void update(ClaimVoucher claimVoucher, List<ClaimVoucherItem> items);
 
+    //提交报销单
     void submit(int id);
 
+    //审核报销单
     void deal(DealRecord dealRecord);
 }

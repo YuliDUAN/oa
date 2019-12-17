@@ -13,6 +13,7 @@
         <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
             <div class="panel heading-border">
                 <form:form id="admin-form" name="addForm" action="/claim_voucher/update" modelAttribute="info">
+                    <%--设置隐藏域，方便进行映射--%>
                     <form:hidden path="claimVoucher.id"/>
                     <div class="panel-body bg-light">
                         <div class="section-divider mt20 mb40">
