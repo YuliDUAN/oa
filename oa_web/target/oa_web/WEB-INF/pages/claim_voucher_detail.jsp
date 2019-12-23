@@ -23,6 +23,7 @@
                         <div class="col-md-2">创建人</div>
                         <div class="col-md-4">${claimVoucher.creater.name}</div>
                         <div class="col-md-2">创建时间</div>
+                        <%--在实体类注解设置时间格式--%>
                         <div class="col-md-4"><spring:eval expression="claimVoucher.createTime"/></div>
                     </div>
                     <div class="section row">
