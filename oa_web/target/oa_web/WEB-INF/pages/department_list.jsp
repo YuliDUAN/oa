@@ -3,6 +3,10 @@
 
 <jsp:include page="top.jsp"/>
 
+<script type="text/javascript">
+
+</script>
+
 <section id="content" class="table-layout animated fadeIn">
     <div class="tray tray-center">
         <div class="content-header">

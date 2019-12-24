@@ -72,13 +72,13 @@
                             </div>
                             <div class="panel-footer text-right">
 
-                                <c:if test="${sessionScope.employee.post==Contant.POST_FM || sessionScope.employee.post==Contant.POST_GM}">
-                                <button type="submit" class="button" name="dealWay" value="${Contant.DEAL_PASS}" >${Contant.DEAL_PASS}</button>
-                                <button type="submit" class="button" name="dealWay" value="${Contant.DEAL_BACK}" >${Contant.DEAL_BACK}</button>
-                                <button type="submit" class="button" name="dealWay" value="${Contant.DEAL_REJECT}" >${Contant.DEAL_REJECT}</button>
+                                <c:if test="${sessionScope.employee.post=='部门经理' || sessionScope.employee.post=='总经理'}">
+                                <button type="submit" class="button" name="dealWay" value="${Contant.DEAL_PASS}" > 通过 </button>
+                                <button type="submit" class="button" name="dealWay" value="${Contant.DEAL_BACK}" > 打回 </button>
+                                <button type="submit" class="button" name="dealWay" value="${Contant.DEAL_REJECT}" > 拒绝 </button>
                                 </c:if>
-                                <c:if test="${sessionScope.employee.post==Contant.POST_CASHIER}">
-                                <button type="submit" class="button" name="dealWay" value="${Contant.DEAL_PAID}" >${Contant.DEAL_PAID}</button>
+                                <c:if test="${sessionScope.employee.post=='财务'}">
+                                <button type="submit" class="button" name="dealWay" value="${Contant.DEAL_PAID}" > 打款 </button>
                                 </c:if>
                                 <button type="button" class="button" onclick="javascript:window.history.go(-1);"> 返回 </button>
                             </div>

@@ -3,7 +3,7 @@
 
 <jsp:include page="top.jsp"/>
 
-<script>
+<script type="text/javascript">
 
 </script>
 
