@@ -4,6 +4,12 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+        <welcome-file>/WEB-INF/pages/login.jsp</welcome-file>
+        <welcome-file>pages/login.jsp</welcome-file>
+    </welcome-file-list>
+
     <filter>
         <filter-name>encoding</filter-name>
         <filter-class>com.dk.oa.global.EncodingFilter</filter-class>
