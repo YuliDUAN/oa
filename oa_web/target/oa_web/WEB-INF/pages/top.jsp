@@ -41,7 +41,7 @@
                     </li>
                     <li class="dropdown-footer">
                         <a href="/quit" class="">
-                            <span class="fa fa-power-off pr5"></span> 退出 </a>
+                            <span class="fa fa-power-off pr5"></span> 退出</a>
                     </li>
                 </ul>
             </li>
@@ -59,7 +59,7 @@
                             <div class="media-author">姓名：${sessionScope.employee.name}</div>
                             <div class="media-author">职务：${sessionScope.employee.post}</div>
                             <div class="media-links">
-                                <a href="/quit">退出</a>
+                                <a href="/quit"><h5>退出</h5></a>
                             </div>
                         </div>
                     </div>

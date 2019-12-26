@@ -6,15 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="解决头像不现实问题，以及导航栏的账号姓名">
+    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="完善了处理流程层面的问题，处理记录里面创建的记录显示问题">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/DealRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/DealRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/ClaimVoucherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/ClaimVoucherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_check.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_deal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_deal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_check.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_deal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_deal.jsp" afterDir="false" />
     </list>
@@ -58,11 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="760">
               <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -228,7 +230,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="415" />
-    <option name="y" value="17" />
+    <option name="y" value="16" />
     <option name="width" value="1415" />
     <option name="height" value="950" />
   </component>
@@ -716,7 +718,7 @@
       <workItem from="1577085307901" duration="6097000" />
       <workItem from="1577179771849" duration="10453000" />
       <workItem from="1577244195111" duration="201000" />
-      <workItem from="1577318554945" duration="5713000" />
+      <workItem from="1577318554945" duration="5952000" />
     </task>
     <task id="LOCAL-00001" summary="解决500错误">
       <created>1576506806146</created>
@@ -767,27 +769,35 @@
       <option name="project" value="LOCAL" />
       <updated>1577195823974</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完善了处理流程层面的问题，处理记录里面创建的记录显示问题">
+      <created>1577324758028</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577324758028</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150388000" />
+    <option name="totallyTimeSpent" value="150627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2295302" />
       <window_info id="Structure" order="6" weight="0.25" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3298969" />
       <window_info anchor="bottom" id="Messages" order="1" weight="0.13532764" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32736155" />
       <window_info anchor="bottom" id="Terminal" order="5" />
       <window_info anchor="bottom" id="Spring" order="6" />
@@ -833,7 +843,8 @@
     <MESSAGE value="添加报销单模块" />
     <MESSAGE value="修改，提交，审核，处理报销单操作" />
     <MESSAGE value="解决头像不现实问题，以及导航栏的账号姓名" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决头像不现实问题，以及导航栏的账号姓名" />
+    <MESSAGE value="完善了处理流程层面的问题，处理记录里面创建的记录显示问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善了处理流程层面的问题，处理记录里面创建的记录显示问题" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/oa$department_list_jsp.ic" NAME="department_list.jsp Coverage Results" MODIFIED="1577096155505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -1090,13 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_check.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1195,6 +1199,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="51" selection-end-line="61" selection-end-column="51" />
         </state>
       </provider>
     </entry>
