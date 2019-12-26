@@ -15,6 +15,7 @@ import java.util.Map;
 @Controller("claimVoucherController")
 @RequestMapping("/claim_voucher")
 public class ClaimVoucherController {
+
     @Autowired
     private ClaimVoucherBiz claimVoucherBiz;
 

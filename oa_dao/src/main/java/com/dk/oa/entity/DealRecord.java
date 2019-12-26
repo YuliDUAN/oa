@@ -6,6 +6,7 @@ import java.util.Date;
 
 //处理记录
 public class DealRecord {
+
     private Integer id;
     //报销单编号
     private Integer claimVoucherId;

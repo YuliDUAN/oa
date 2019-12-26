@@ -68,14 +68,14 @@
                             <td class="text-center fw600">${cv.totalAmount}</td>
                             <td><spring:eval expression="cv.createTime"/></td>
                             <td>
-                                <c:if test="${cv.status==Contant.CLAIMVOUCHER_CREATED || cv.status==Contant.CLAIMVOUCHER_BACK}">
+                                <c:if test="${cv.status=='新创建' || cv.status=='已打回'}">
                                     <a href="/claim_voucher/to_update?id=${cv.id}">修改</a>
                                     <a href="/claim_voucher/submit?id=${cv.id}">提交</a>
                                 </c:if>
-                                <c:if test="${cv.status==Contant.CLAIMVOUCHER_SUBMIT || cv.status==Contant.CLAIMVOUCHER_RECHECK}">
+                                <c:if test="${cv.status=='已提交' || cv.status=='待复审'}">
                                     <a href="/claim_voucher/to_check?id=${cv.id}">审核</a>
                                 </c:if>
-                                <c:if test="${cv.status==Contant.CLAIMVOUCHER_APPROVED}">
+                                <c:if test="${cv.status=='已审核'}">
                                     <a href="/claim_voucher/to_check?id=${cv.id}">打款</a>
                                 </c:if>
                                 <a href="/claim_voucher/detail?id=${cv.id}">详细信息</a>

@@ -75,7 +75,7 @@
                                 <c:if test="${cv.status=='已提交' || cv.status=='待复审'}">
                                     <a href="/claim_voucher/to_check?id=${cv.id}">审核</a>
                                 </c:if>
-                                <c:if test="${cv.status=='已复审'}">
+                                <c:if test="${cv.status=='已审核'}">
                                     <a href="/claim_voucher/to_check?id=${cv.id}">打款</a>
                                 </c:if>
                                 <a href="/claim_voucher/detail?id=${cv.id}">详细信息</a>

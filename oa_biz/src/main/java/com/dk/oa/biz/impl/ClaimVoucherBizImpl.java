@@ -45,6 +45,16 @@ public class ClaimVoucherBizImpl implements ClaimVoucherBiz {
             item.setClaimVoucherId(claimVoucher.getId());
             claimVoucherItemDao.insert(item);
         }
+
+        //保存操作记录
+        DealRecord dealRecord = new DealRecord();
+        dealRecord.setDealWay(Contant.DEAL_CREATE);
+        dealRecord.setDealSn(claimVoucher.getCreateSn());
+        dealRecord.setClaimVoucherId(claimVoucher.getId());
+        dealRecord.setDealResult(Contant.CLAIMVOUCHER_CREATED);
+        dealRecord.setDealTime(new Date());
+        dealRecord.setComment("无");
+        dealRecordDao.insert(dealRecord);
     }
 
     @Override
