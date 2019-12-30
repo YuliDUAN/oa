@@ -22,7 +22,6 @@ public class FaceLoginServlet extends HttpServlet {
         super();
     }
 
-
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doPost(request, response);

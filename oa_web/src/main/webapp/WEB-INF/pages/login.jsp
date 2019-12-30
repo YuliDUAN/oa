@@ -14,8 +14,49 @@
     <link rel="stylesheet" type="text/css" href="assets/admin-tools/admin-forms/css/admin-forms.css">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-2.1.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" />
+    <script type="text/javascript" src="${pageContext.request.contextPath}/assets/jquery/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/assets/bootstrap/js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+            $("#addEmpBtn").click(function(){
+                //弹出（新增）模态窗口
+                $("#editEmpModal").modal({
+                    backdrop:"static"
+                });
+            });
+        });
+    </script>
+
 </head>
 <body class="external-page external-alt sb-l-c sb-r-c">
+
+
+<!-- 修改员工模态窗口 -->
+<div id="editEmpModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="gridSystemModalLabel">人脸登陆</h4>
+            </div>
+            <div >
+                <p align="center">
+                    <button class="btn btn-primary" id="open">开启摄像头</button>
+                    <button class="btn btn-default" id="close">关闭摄像头</button>
+                    <button class="btn btn-primary" id="CatchCode">拍照</button>
+                </p>
+                <div align="center" style="float: left;">
+                    <video id="video" width="400px" height="400px" autoplay></video>
+                    <canvas  id="canvas" width="350" height="350"></canvas>
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- 修改员工模态窗口 -->
+
 <div id="main" class="animated fadeIn">
     <section id="content_wrapper">
         <section id="content">
@@ -25,6 +66,9 @@
                     <p class="lead">欢迎使用报销单管理系统</p>
                 </div>
                 <div class="panel mt30 mb25">
+                    <div style="background: #fafafa;text-align:right">
+                        <button style="background-image:url('/assets/img/avatars/faceLogin.png');width:64px;height:64px;border-style: none;" id="addEmpBtn"></button>
+                    </div>
                     <form method="post" action="login" id="contact">
                         <div class="panel-body bg-light p25 pb15">
                             <div class="section">
@@ -55,17 +99,6 @@
                             </label>
                         </div>
                     </form>
-                </div>
-                <div>
-                    <p align="center">
-                        <button id="open">开启摄像头</button>
-                        <button id="close">关闭摄像头</button>
-                        <button id="CatchCode">拍照</button>
-                    </p>
-                    <div align="center" style="float: left;">
-                        <video id="video" width="800px" height="800px" autoplay></video>
-                        <canvas hidden="hidden" id="canvas" width="626" height="800"></canvas>
-                    </div>
                 </div>
             </div>
         </section>
