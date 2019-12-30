@@ -4,6 +4,10 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+
     <filter>
         <filter-name>encoding</filter-name>
         <filter-class>com.dk.oa.global.EncodingFilter</filter-class>
@@ -43,5 +47,15 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <description></description>
+        <display-name>FaceLoginServlet</display-name>
+        <servlet-name>FaceLoginServlet</servlet-name>
+        <servlet-class>com.dk.oa.controller.FaceLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FaceLoginServlet</servlet-name>
+        <url-pattern>/FaceLoginServlet</url-pattern>
+    </servlet-mapping>
 
 </web-app>

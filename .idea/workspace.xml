@@ -6,9 +6,46 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="完善了处理流程层面的问题，处理记录里面创建的记录显示问题">
+    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="设置网页打开的首页">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baidu_aip_java_sdk_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/FaceSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/lib/aip-java-sdk-4.11.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/lib/json-20160810.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/lib/slf4j-simple-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/lib/sun.misc.BASE64Decoder.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/Face.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/js/jquery-2.1.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/oa_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/oa_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_biz/target/classes/META-INF/oa_biz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_biz/target/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_dao/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_dao/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_dao/target/classes/META-INF/oa_dao.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_dao/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_dao/target/classes/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/oa_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/oa_web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/GloablController.class" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/GloablController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/controller/GloablController.class" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/controller/GloablController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/aspectjweaver-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/javax.servlet-api-4.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/mybatis-3.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/mysql-connector-java-5.1.44.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/oa_biz-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/oa_biz-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/oa_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/oa_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,13 +64,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="oa" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/ClaimVoucherBiz.java">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/FaceSpot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="-6478">
+              <caret line="16" column="79" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,83 +81,97 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="160">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/DealRecordDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/ClaimVoucherDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/ClaimVoucherItemDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/ClaimVoucherItemDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/ClaimVoucherDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/DealRecordDao.xml">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/EncodingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/Face.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_web/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_biz/src/main/resources/spring-biz.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -139,6 +193,8 @@
       <find>claim_voucher_deal</find>
       <find>1111111111111111</find>
       <find>index</find>
+      <find>-1</find>
+      <find>FaceLogin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -150,29 +206,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/imooc/oa/biz/impl/EmployeeBizImpl.java" />
-        <option value="$PROJECT_DIR$/oa_biz/src/main/java/cn/dk/oa/biz1/impl/GlobalBizImpl.java" />
-        <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz1/impl/GlobalBizImpl.java" />
-        <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/imooc/oa/biz/impl/GlobalBizImpl.java" />
-        <option value="$PROJECT_DIR$/oa_dao/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/oa_biz/pom.xml" />
-        <option value="$PROJECT_DIR$/oa_dao/src/main/resources/spring-dao.xml" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/DepartmentDao.xml" />
         <option value="$PROJECT_DIR$/oa_web/src/main/resources/spring-web.xml" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/resources/spring-biz.xml" />
-        <option value="$PROJECT_DIR$/oa_web/pom.xml" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/DealRecordDao.xml" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/ClaimVoucherItemDao.xml" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/GlobalBizImpl.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/EmployeeBizImpl.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/EncodingFilter.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/DepartmentBizImpl.java" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" />
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/EmployeeDao.xml" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/GlobalBiz.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java" />
@@ -200,7 +245,18 @@
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_detail.jsp" />
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/ClaimVoucherController.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java" />
+        <option value="$PROJECT_DIR$/oa_dao/src/main/resources/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_add.jsp" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/Base64Util.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/FaceSpot.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLogin.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/Face.jsp" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/oa_web/pom.xml" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java" />
       </list>
     </option>
   </component>
@@ -228,11 +284,11 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="398" />
-    <option name="y" value="21" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="365" />
+    <option name="y" value="31" />
     <option name="width" value="1415" />
-    <option name="height" value="950" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -256,6 +312,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,6 +345,51 @@
               <item name="oa_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,37 +401,51 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../face_test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4691689" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\java\com\dk\oa\controller" />
+      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\js" />
+      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\WEB-INF\lib" />
       <recent name="H:\workspace\IdeaProjects\oa\oa_web\src\main\webapp\WEB-INF\pages" />
       <recent name="H:\workspace\IdeaProjects\oa\oa_dao\src\main\resources\com\imooc\oa\dao" />
-      <recent name="H:\workspace\IdeaProjects\oa\oa_dao\src\main\java\com\imooc\oa\dao" />
-      <recent name="H:\workspace\IdeaProjects\oa\oa_dao\target\classes\com\imooc\oa\dao" />
-      <recent name="H:\workspace\IdeaProjects\oa\oa_dao\src\main\resources\com.imooc.oa.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.oa.controller" />
@@ -358,14 +475,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="oa_biz" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -386,6 +495,119 @@
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Face.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/pages/Face.jsp" />
+      <deployment>
+        <artifact name="oa_web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/oa_web_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Face_jsp_(1)_oa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="oa_web:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Face.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/pages/Face.jsp" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="oa_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/oa_web_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Face_jsp_oa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51887" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="oa_web:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="department_list.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
@@ -501,6 +723,45 @@
         </option>
       </method>
     </configuration>
+    <configuration name="login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/pages/login.jsp" />
+      <deployment>
+        <artifact name="oa_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/oa_web_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="login_jsp_oa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="oa_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -511,15 +772,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Tomcat Server.department_list.jsp" />
       <item itemvalue="Tomcat Server.department_update.jsp" />
+      <item itemvalue="Tomcat Server.Face.jsp" />
+      <item itemvalue="Tomcat Server.login.jsp" />
+      <item itemvalue="Tomcat Server.Face.jsp (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Tomcat Server.department_list.jsp" />
+        <item itemvalue="Tomcat Server.Face.jsp (1)" />
+        <item itemvalue="Tomcat Server.login.jsp" />
+        <item itemvalue="Tomcat Server.Face.jsp" />
         <item itemvalue="Tomcat Server.department_update.jsp" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +821,14 @@
       <workItem from="1577244195111" duration="201000" />
       <workItem from="1577318554945" duration="5952000" />
       <workItem from="1577324905495" duration="183000" />
-      <workItem from="1577325359098" duration="391000" />
+      <workItem from="1577325359098" duration="909000" />
+      <workItem from="1577329019951" duration="2089000" />
+      <workItem from="1577331548989" duration="129000" />
+      <workItem from="1577404570546" duration="2019000" />
+      <workItem from="1577585991326" duration="7895000" />
+      <workItem from="1577664055615" duration="765000" />
+      <workItem from="1577665555141" duration="1845000" />
+      <workItem from="1577668559147" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="解决500错误">
       <created>1576506806146</created>
@@ -621,33 +893,40 @@
       <option name="project" value="LOCAL" />
       <updated>1577325078079</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="设置网页打开的首页">
+      <created>1577325774110</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577325774110</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151201000" />
+    <option name="totallyTimeSpent" value="168843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="319" y="17" width="1132" height="760" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" order="0" side_tool="true" />
+      <window_info id="Web" order="0" sideWeight="0.50236964" side_tool="true" weight="0.30410448" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.30410448" />
+      <window_info id="Favorites" order="4" sideWeight="0.50236964" side_tool="true" weight="0.30410448" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49763033" visible="true" weight="0.18456376" />
       <window_info id="Structure" order="6" weight="0.25" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3298969" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.13532764" />
-      <window_info anchor="bottom" id="Java Enterprise" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32736155" />
-      <window_info anchor="bottom" id="Terminal" order="5" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32861635" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.14779875" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32861635" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.1687898" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32704404" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32861635" />
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.25071225" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3019943" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.2736573" />
       <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
@@ -665,9 +944,10 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Maven" order="9" />
-      <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32929105" />
+      <window_info anchor="right" id="Bean Validation" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,100 +963,45 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="解决500错误" />
     <MESSAGE value="添加报销单模块" />
     <MESSAGE value="修改，提交，审核，处理报销单操作" />
     <MESSAGE value="解决头像不现实问题，以及导航栏的账号姓名" />
     <MESSAGE value="完善了处理流程层面的问题，处理记录里面创建的记录显示问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善了处理流程层面的问题，处理记录里面创建的记录显示问题" />
+    <MESSAGE value="设置网页打开的首页" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置网页打开的首页" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/oa$department_list_jsp.ic" NAME="department_list.jsp Coverage Results" MODIFIED="1577096155505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1121" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-722" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/department_add.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/GlobalBizImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/GlobalBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/DepartmentBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/EmployeeBizImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/EmployeeDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -784,31 +1009,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_self.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/dto/ClaimVoucherInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -846,13 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -864,13 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="74" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -998,12 +1188,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="55" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/DealRecordDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/ClaimVoucherDao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1040,17 +1240,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp">
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="54" column="55" lean-forward="true" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+        <state relative-caret-position="343">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/dto/ClaimVoucherInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/js/jquery-2.1.1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLogin.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/resources/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/resources/spring-biz.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/Face.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="228">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/FaceSpot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6478">
+          <caret line="16" column="79" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1060,11 +1372,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>oa_web:war</last-edited>
+          <last-edited>oa_web:war2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4691689" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
