@@ -15,6 +15,7 @@ import java.util.Map;
 @Controller("employeeController")
 @RequestMapping("/employee")
 public class EmployeeController {
+
     //自动注入
     @Autowired
     private DepartmentBiz departmentBiz;

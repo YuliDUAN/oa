@@ -1,22 +1,28 @@
 package com.dk.oa.controller;
 
+import com.dk.oa.biz.EmployeeBiz;
 import com.dk.oa.biz.GlobalBiz;
+import com.dk.oa.dao.EmployeeDao;
 import com.dk.oa.entity.Employee;
 import com.dk.oa.global.FaceSpot;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 
 //登陆和个人中心模块
 @Controller("globalController")
 public class GloablController {
+
+    @Autowired
+    private EmployeeBiz employeeBiz;
+
     @Autowired
     private GlobalBiz globalBiz;
+
 
     @RequestMapping("/to_login")
     public String toLogin() {
@@ -32,6 +38,21 @@ public class GloablController {
         }
         session.setAttribute("employee", employee);
         return "redirect:self";
+    }
+
+    //自登陆
+
+    @RequestMapping(value = "/faceLogin/{id}",method = RequestMethod.GET)
+    @ResponseBody
+    public String faceLogin(@PathVariable("id")String id,HttpSession session ){
+
+        Employee employee = employeeBiz.get(id);
+        if (employee!=null){
+            session.setAttribute("employee",employee);
+            return "SUC";
+        }else {
+            return "FAL";
+        }
     }
 
     //个人中心页面

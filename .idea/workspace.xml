@@ -6,33 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="增加人脸登陆功能">
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/faceLogin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/jquery/jquery-3.3.1.js" afterDir="false" />
+    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="登陆界面优化">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/GlobalBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/GlobalBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/oa_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/oa_web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/Face.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/GloablController.class" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/GloablController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/controller/GloablController.class" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/controller/GloablController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/oa_biz-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/oa_biz-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/favicon.ico" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,24 +45,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="68" column="52" lean-forward="true" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+            <state relative-caret-position="135">
+              <caret line="175" column="22" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_update.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="209">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -97,6 +113,7 @@
       <find>index</find>
       <find>-1</find>
       <find>FaceLogin</find>
+      <find>验证成功</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,9 +136,7 @@
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/EncodingFilter.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/DepartmentBizImpl.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/EmployeeDao.xml" />
-        <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/GlobalBiz.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/DepartmentBiz.java" />
         <option value="$PROJECT_DIR$/LICENSE" />
@@ -152,13 +167,15 @@
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/FaceSpot.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLogin.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/Face.jsp" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/oa_web/pom.xml" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp" />
+        <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/GlobalBiz.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java" />
+        <option value="$PROJECT_DIR$/oa_web/pom.xml" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" />
       </list>
     </option>
   </component>
@@ -187,10 +204,10 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="416" />
-    <option name="y" value="53" />
+    <option name="x" value="348" />
+    <option name="y" value="22" />
     <option name="width" value="1418" />
-    <option name="height" value="774" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -224,6 +241,96 @@
             <path>
               <item name="oa" type="b2602c69:ProjectViewProjectNode" />
               <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
               <item name="oa_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -253,7 +360,28 @@
               <item name="oa_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oa" type="b2602c69:ProjectViewProjectNode" />
@@ -262,28 +390,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oa" type="462c0819:PsiDirectoryNode" />
-              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oa" type="462c0819:PsiDirectoryNode" />
-              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="avatars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oa" type="b2602c69:ProjectViewProjectNode" />
@@ -720,7 +826,7 @@
       <workItem from="1577665555141" duration="1845000" />
       <workItem from="1577668559147" duration="5230000" />
       <workItem from="1577675362459" duration="154000" />
-      <workItem from="1577686994571" duration="8497000" />
+      <workItem from="1577686994571" duration="21449000" />
     </task>
     <task id="LOCAL-00001" summary="解决500错误">
       <created>1576506806146</created>
@@ -799,11 +905,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577671167187</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="登陆界面优化">
+      <created>1577698991758</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577698991758</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180342000" />
+    <option name="totallyTimeSpent" value="193294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -814,7 +927,7 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50236964" side_tool="true" weight="0.30410448" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49763033" visible="true" weight="0.2409396" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49763033" visible="true" weight="0.21543624" />
       <window_info id="Structure" order="6" weight="0.25" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32861635" />
@@ -825,7 +938,7 @@
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32861635" />
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.081196584" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.82905984" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.2736573" />
       <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
@@ -840,7 +953,7 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24953446" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Maven" order="9" />
       <window_info anchor="right" id="Word Book" order="10" side_tool="true" weight="0.3295302" />
@@ -910,100 +1023,23 @@
     <MESSAGE value="完善了处理流程层面的问题，处理记录里面创建的记录显示问题" />
     <MESSAGE value="设置网页打开的首页" />
     <MESSAGE value="增加人脸登陆功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加人脸登陆功能" />
+    <MESSAGE value="登陆界面优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="登陆界面优化" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/oa$department_list_jsp.ic" NAME="department_list.jsp Coverage Results" MODIFIED="1577096155505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/ClaimVoucherItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/ClaimVoucher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-          <folding>
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1409#1410#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1571#1572#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_check.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_deal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="39" lean-forward="true" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/DealRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/ClaimVoucherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/ClaimVoucherBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/DealRecordDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/ClaimVoucherDao.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1079,59 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/FaceSpot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="79" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/Face.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2147">
-          <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/oa_biz/src/main/resources/spring-biz.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
@@ -1158,16 +1141,6 @@
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/faceLogin.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1178,9 +1151,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/6.jpg">
@@ -1198,21 +1168,164 @@
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/logos/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp">
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/Face.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="68" column="52" lean-forward="true" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+        <state relative-caret-position="205">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/EmployeeDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/GlobalBizImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/GlobalBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/ClaimVoucherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="49" column="73" lean-forward="true" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/FaceSpot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="142" column="29" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/self.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="209">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="175" column="22" selection-start-line="175" selection-start-column="22" selection-end-line="175" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/skin/default_skin/css/theme.css">
     <link rel="stylesheet" type="text/css" href="assets/admin-tools/admin-forms/css/admin-forms.css">
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" href="/assets/img/avatars/favicon.ico">
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-2.1.1.js"></script>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" />
     <script type="text/javascript" src="${pageContext.request.contextPath}/assets/jquery/jquery-3.3.1.js"></script>
@@ -156,9 +155,26 @@
                     //关闭摄像头
                     video.srcObject.getTracks()[0].stop();
                     //提醒用户识别成功
-                    alert("验证成功!");
+                    //alert("验证成功!");
                     //验证成功跳转页面
-                    //window.location.href="";
+                    //window.location.href="self.jsp";
+
+                    //异步实现自登陆
+                    $.ajax({
+                        url:"/faceLogin/"+parseInt(data.result.user_list[0].user_id),
+                        type:"get",
+                        success:function (result) {
+                            if(result=="SUC"){
+                                //关闭模态窗
+                                $("#addEmpModal").modal("hide");
+                                location.href="/self";
+                            }else {
+                                alert("数据库中没有您的账号！");
+                            }
+                        }
+                    })
+                }else {
+                    alert("人脸库中没有您的信息！");
                 }
             },
             error : function(q, w, e) {

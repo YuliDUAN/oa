@@ -16,7 +16,6 @@ import org.json.JSONObject;
  */
 public class FaceLoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
 
     public FaceLoginServlet() {
         super();
@@ -39,6 +38,7 @@ public class FaceLoginServlet extends HttpServlet {
 		JSONObject js = FaceSpot.searchFace(img, "yuriDuan", "1000");
 		System.out.println(js.toString(2));
 		out.print(js);
+
 	}
 
 }
