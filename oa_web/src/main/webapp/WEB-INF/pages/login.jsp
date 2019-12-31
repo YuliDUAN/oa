@@ -32,7 +32,7 @@
 <body class="external-page external-alt sb-l-c sb-r-c">
 
 
-<!-- 修改员工模态窗口 -->
+<!-- 人脸登陆模态窗口 -->
 <div id="editEmpModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -54,7 +54,7 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-<!-- 修改员工模态窗口 -->
+<!-- 人脸登陆模态窗口 -->
 
 <div id="main" class="animated fadeIn">
     <section id="content_wrapper">
@@ -66,7 +66,9 @@
                 </div>
                 <div class="panel mt30 mb25">
                     <div style="background: #fafafa;text-align:right">
-                        <button style="background-image:url('/assets/img/avatars/faceLogin.png');width:64px;height:64px;border-style: none;" id="addEmpBtn"></button>
+                        <button style="background-image:url('/assets/img/avatars/faceLogin.png');width:64px;height:64px;border-style: none;"
+                                id="addEmpBtn">
+                        </button>
                     </div>
                     <form method="post" action="login" id="contact">
                         <div class="panel-body bg-light p25 pb15">
