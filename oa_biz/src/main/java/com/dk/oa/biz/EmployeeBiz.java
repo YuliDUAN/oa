@@ -6,6 +6,7 @@ import com.dk.oa.entity.Employee;
 import java.util.List;
 
 public interface EmployeeBiz {
+
     //添加成员
     void add(Employee employee);
     //修改成员
@@ -16,4 +17,5 @@ public interface EmployeeBiz {
     Employee get(String sn);
     //查询所有
     List<Employee> getAll();
+
 }

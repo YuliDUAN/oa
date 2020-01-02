@@ -16,6 +16,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.nio.file.Path;
@@ -66,7 +67,7 @@ public class GloablController {
     //二维码存储个人信息
     @RequestMapping("/to_getCode")
     @ResponseBody
-    public String to_getCode(HttpSession session) throws Exception {
+    public String to_getCode(HttpSession session, HttpServletRequest request) throws Exception {
 
         Employee employee = (Employee) session.getAttribute("employee");
 
@@ -87,11 +88,13 @@ public class GloablController {
         // 1.二维码信息。2.图片类型。3.宽度。4.长度。5.编码格式
         BitMatrix bt = writer.encode(content, BarcodeFormat.QR_CODE, 200, 200,hints);
         //保存二维码到本地
-        Path path = new File("D:\\java1701\\eclipse-workspace\\oa\\oa_web\\src\\main\\webapp\\assets\\img\\emp\\emp.png").toPath();
+        String appPath = request.getSession().getServletContext().getRealPath("/");
+        String webAppsPath = new File(appPath).getParent();
+
+        Path path = new File(webAppsPath+"/Images"+"/emp.png").toPath();
         MatrixToImageWriter.writeToPath(bt,"png",path);
         if (employee != null){
-            String address = "assets/img/emp";
-            return address;
+            return "emp.png";
         }else {
             return "FAL";
         }

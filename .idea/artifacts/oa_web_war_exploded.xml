@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="oa_web:war exploded">
-    <output-path>$PROJECT_DIR$/oa_web/target/oa_web</output-path>
+    <output-path>D:/xampp/tomcat/webapps/oa</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>

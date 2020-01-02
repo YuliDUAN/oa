@@ -3,24 +3,28 @@
 <jsp:include page="top.jsp"/>
 
 <script type="text/javascript">
-    $(function(){
+    $(function () {
+        $("#getEmpBtn").click(function(){
+            //先加载图片
+            getImg();
+            //弹出（新增）模态窗口
+            $("#moreEmpModal").modal({
+                backdrop:"static"
+            });
+        });
+    });
+
+    function getImg(){
            //生成二维码
             $.ajax({
                 url:"/to_getCode",
-                type:"POST",
+                type:"get",
                 success:function(result){
-                console.log(result);
-                $("#img1").attr("src","${pageContext.request.contextPath}/"+result+"/emp.png");
-                }
-            })
-
-            $("#getEmpBtn").click(function(){
-                //弹出（新增）模态窗口
-                $("#moreEmpModal").modal({
-                    backdrop:"static"
-                });
+                    $("#img1").attr("src","../../Images/"+result+"");
+                    }
             });
-    });
+    }
+
 </script>
 
 <!-- 得到员工详情模态窗口 -->
@@ -32,7 +36,7 @@
                 <h4 class="modal-title" id="gridSystemModalLabel">手机扫描获取详情</h4>
             </div>
             <div align="center" style="margin-bottom: 50px">
-                <img id="img1" style="height: 200px;width: 200px"/>
+                <img id="img1" src="" style="height: 200px;width: 200px"/>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
