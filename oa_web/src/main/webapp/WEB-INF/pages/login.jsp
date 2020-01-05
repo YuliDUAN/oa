@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/skin/default_skin/css/theme.css">
     <link rel="stylesheet" type="text/css" href="assets/admin-tools/admin-forms/css/admin-forms.css">
-    <link rel="shortcut icon" href="/assets/img/avatars/favicon.ico">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/img/avatars/favicon.ico">
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-2.1.1.js"></script>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/bootstrap/css/bootstrap.css" />
     <script type="text/javascript" src="${pageContext.request.contextPath}/assets/jquery/jquery-3.3.1.js"></script>

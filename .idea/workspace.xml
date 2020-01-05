@@ -6,316 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="加入扫描查看详情功能">
+    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="解决问题：1，删除还有成员的部门，报错.2，二维码显示内容延迟。">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_smartcn_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/lucene/EmpIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/oa_web_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/oa_web_war.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/oa_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/oa_web_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/oa_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/oa_web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/self.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/self.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/logos/logo_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/logos/logo_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/GloablController.class" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/GloablController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/META-INF/oa_web.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/controller/ClaimVoucherController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/controller/DepartmentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/controller/EmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/controller/GloablController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/dto/ClaimVoucherInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/global/EncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/com/dk/oa/global/LoginInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/classes/spring-web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/oa_biz-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/oa_dao-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/spring-beans-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/spring-core-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/spring-expression-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/spring-tx-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/bottom.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/change_password.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_check.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_deal.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_detail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_self.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/claim_voucher_update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/department_add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/department_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/department_update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/employee_add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/employee_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/employee_update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/self.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/pages/top.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/admin-tools/admin-forms/css/admin-forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/admin-tools/admin-forms/css/admin-forms.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/admin-tools/admin-forms/js/additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/admin-tools/admin-forms/js/jquery-ui-datepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/admin-tools/admin-forms/js/jquery-ui-monthpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/admin-tools/admin-forms/js/jquery.spectrum.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/admin-tools/admin-forms/js/jquery.stepper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/admin-tools/admin-forms/js/jquery.steps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/admin-tools/admin-forms/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/admindesigns/admindesigns.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/admindesigns/admindesigns.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/admindesigns/admindesigns.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/admindesigns/admindesigns.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/admindesigns/admindesignsd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/font-awesome/fontawesome-webfontd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/font-awesome/fontawesome-webfonte0a5.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/font-awesome/fontawesome-webfonte0a5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/font-awesome/fontawesome-webfonte0a5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/font-awesome/fontawesome-webfonte0a5.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/font-awesome/fontawesome-webfonte0a5.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons-pro/glyphicons-pro.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons-pro/glyphicons-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons-pro/glyphicons-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons-pro/glyphicons-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons-pro/glyphicons-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons-pro/glyphicons-regulard41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons/glyphicons-halflings-regular.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/glyphicons/glyphicons-halflings-regulard41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/icomoon/icomoon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/icomoon/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/icomoon/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/icomoon/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/icomoon/icomoond41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/iconsweets/IconSweets-Deluxe.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/iconsweets/IconSweets-Deluxe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/iconsweets/IconSweets-Deluxe.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/iconsweets/IconSweets-Deluxe.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/iconsweets/IconSweets-Deluxed41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/iconsweets/iconsweets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/octicons/octicons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/octicons/octicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/octicons/octicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/octicons/octicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/octicons/octiconsd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/stateface/stateface-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/stateface/stateface-regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/stateface/stateface-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/stateface/stateface-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/stateface/stateface-regular-webfontd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/stateface/stateface.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/zocial/zocial-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/zocial/zocial-regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/zocial/zocial-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/fonts/zocial/zocial.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/avatars/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/avatars/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/avatars/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/avatars/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/avatars/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/avatars/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/avatars/profile_avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/logos/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/logos/logo_grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/logos/logo_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/patterns/backgrounds/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/patterns/noise.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/patterns/topbar-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/patterns/topbar-bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/patterns/topbar-bg3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/plugins/admindock-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/plugins/arrow_left_12x12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/plugins/arrow_right_12x12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/plugins/details_close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/plugins/details_open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/plugins/grippy_large.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/sprites/favicons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/sprites/flag-sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/sprites/flag-xs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/sprites/news-logo_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/products/thumb_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/products/thumb_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/products/thumb_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/products/thumb_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/products/thumb_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/products/thumb_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/img/stock/products/thumb_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/js/demo/charts/d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/js/demo/charts/flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/js/demo/charts/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/js/demo/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/js/demo/widgets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/js/utility/utility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/skin/default_skin/css/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/assets/skin/default_skin/img/plugins/slider-knob.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/js/items.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/js/pages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/jquery/jquery-1.11.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/jquery/jquery_ui/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/animate/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/bstimeout/bs-timeout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/bstour/bootstrap-tour.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/bstour/bootstrap-tour.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/c3charts/c3.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/c3charts/c3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/c3charts/d3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/canvasbg/canvasbg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/circles/circles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/ckeditor/ckeditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/colorpicker/css/bootstrap-colorpicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/colorpicker/js/bootstrap-colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/countdown/jquery.countdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/countdown/jquery.plugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/cropper/cropper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/extensions/Editor/css/dataTables.editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/extensions/Editor/js/dataTables.editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/extensions/Editor/js/editor.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/media/css/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/media/css/dataTables.plugins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/media/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/media/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/media/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/media/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/media/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/media/js/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datatables/media/js/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datepicker/css/bootstrap-datetimepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/datepicker/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/daterange/daterangepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/daterange/daterangepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/dropzone/css/dropzone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/dropzone/dropzone.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/dropzone/images/spritemap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/dropzone/images/spritemap@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/duallistbox/jquery.bootstrap-duallistbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fancytree/extensions/jquery.fancytree.childcounter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fancytree/extensions/jquery.fancytree.columnview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fancytree/extensions/jquery.fancytree.dnd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fancytree/extensions/jquery.fancytree.edit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fancytree/extensions/jquery.fancytree.filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fancytree/jquery.fancytree-all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fancytree/skin-win8/icons.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fancytree/skin-win8/ui.fancytree.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fileupload/fileupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/footable/css/fonts/footable.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/footable/css/fonts/footable.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/footable/css/fonts/footable.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/footable/css/fonts/footable.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/footable/css/fonts/footabled41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/footable/css/footable.core.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/footable/js/footable.all.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/footable/js/footable.filter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fullcalendar/fullcalendar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fullcalendar/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/fullcalendar/lib/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/globalize/globalize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/gmap/jquery.ui.map.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/gmap/ui/jquery.ui.map.extensions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/highcharts/highcharts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/highlight/highlight.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/highlight/styles/github.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/highlight/styles/googlecode.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/holder/holder.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/imagezoom/jquery.elevatezoom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/jqueryflot/jquery.flot.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/jqueryflot/jquery.flot.pie.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/jqueryflot/jquery.flot.resize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/jqueryflot/jquery.flot.tooltip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/jquerymask/jquery.maskedinput.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/jvectormap/assets/jquery-jvectormap-us-lcc-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/jvectormap/assets/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/jvectormap/jquery.jvectormap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/ladda/ladda.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/ladda/ladda.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/lazyline/jquery.lazylinepainter-1.5.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/magnific/jquery.magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/magnific/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/map/gmaps.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/js/hammer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/js/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/js/jquery.mousewheel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/arrow-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/arrow-up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/closedhand.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/cross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/fullscreen-exit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/fullscreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/openhand.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/pin-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/pin-green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/pin-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/pin-purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/pin-red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/target.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/tooltip-triangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/images/viewer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/mapplic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mapplic/mapplic/mapplic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/markdown/bootstrap-markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/markdown/markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/markdown/to-markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/maxlength/bootstrap-maxlength.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/mixitup/jquery.mixitup.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/moment/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/nestable/jquery.nestable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/nestable/nestable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/nprogress/nprogress.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/pnotify/pnotify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/select2/css/core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/select2/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/slick/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/slick/fonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/slick/fonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/slick/fonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/slick/fonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/slick/fonts/slickd41d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/slick/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/slick/slick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/sparkline/jquery.sparkline.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/summernote/summernote.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/summernote/summernote.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/tagmanager/tagmanager.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/tagmanager/tagmanager.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/tagsinput/tagsinput.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/typeahead/typeahead.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/waypoints/jquery.waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/xeditable/css/bootstrap-editable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/xeditable/img/clear.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/xeditable/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/xeditable/inputs/address/address.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/xeditable/inputs/address/address.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/xeditable/inputs/typeaheadjs/lib/typeahead.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/xeditable/inputs/typeaheadjs/lib/typeahead.js-bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/xeditable/inputs/typeaheadjs/typeaheadjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/oa_web/vendor/plugins/xeditable/js/bootstrap-editable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/DepartmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -338,73 +51,7 @@
     <favorites_list name="oa" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/self.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/department_list.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="131" column="75" lean-forward="true" selection-start-line="131" selection-start-column="75" selection-end-line="131" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -427,6 +74,7 @@
       <find>moreEmpModal</find>
       <find>getDepartmentSn</find>
       <find>img1</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -438,13 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/DepartmentDao.xml" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/resources/spring-web.xml" />
-        <option value="$PROJECT_DIR$/oa_biz/src/main/resources/spring-biz.xml" />
-        <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/DealRecordDao.xml" />
-        <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/ClaimVoucherItemDao.xml" />
-        <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/GlobalBizImpl.java" />
-        <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/EmployeeBizImpl.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/EncodingFilter.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/DepartmentBizImpl.java" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/EmployeeDao.xml" />
@@ -469,7 +110,6 @@
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_deal.jsp" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/DealRecord.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_detail.jsp" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/ClaimVoucherController.java" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/resources/spring-dao.xml" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_add.jsp" />
@@ -483,12 +123,20 @@
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/DateUtil.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp" />
         <option value="$PROJECT_DIR$/oa_web/pom.xml" />
-        <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/lucene/OAIndex.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/StringUtil.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_self.jsp" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/ClaimVoucherController.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/lucene/ClaimIndex.java" />
+        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/lucene/EmpIndex.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/self.jsp" />
-        <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java" />
       </list>
     </option>
   </component>
@@ -517,10 +165,10 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="217" />
-    <option name="y" value="53" />
+    <option name="x" value="420" />
+    <option name="y" value="31" />
     <option name="width" value="1420" />
-    <option name="height" value="949" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -544,12 +192,59 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="oa" type="b2602c69:ProjectViewProjectNode" />
               <item name="oa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oa" type="b2602c69:ProjectViewProjectNode" />
@@ -602,6 +297,26 @@
               <item name="oa_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="oa_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -627,15 +342,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/xampp/tomcat/webapps/oa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -648,21 +361,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\assets\img" />
-      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\assets" />
-      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\java\com\dk\oa\controller" />
-      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\js" />
-      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\WEB-INF\lib" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\assets\img\avatars" />
+      <recent name="H:\workspace\IdeaProjects\oa\oa_dao\src\main\resources\com\imooc\oa\dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.oa.controller" />
       <recent name="com.imooc.oa.biz" />
       <recent name="com.imooc.oa.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\assets\img\avatars" />
-      <recent name="H:\workspace\IdeaProjects\oa\oa_dao\src\main\resources\com\imooc\oa\dao" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\java\com\dk\oa\global" />
+      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\assets\img" />
+      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\assets" />
+      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\java\com\dk\oa\controller" />
+      <recent name="D:\java1701\eclipse-workspace\oa\oa_web\src\main\webapp\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -709,6 +422,7 @@
     <configuration name="department_list.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.56" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/department/list" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="oa_web:war exploded">
@@ -720,6 +434,7 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="department_list_jsp_oa_8" />
         <option name="DEPLOY_TOMCAT_APPS" value="true" />
+        <option name="JNDI_PORT" value="1009" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -841,7 +556,17 @@
       <workItem from="1577686994571" duration="21582000" />
       <workItem from="1577761066409" duration="15762000" />
       <workItem from="1577788489042" duration="1357000" />
-      <workItem from="1577923082286" duration="12645000" />
+      <workItem from="1577923082286" duration="12848000" />
+      <workItem from="1578013579405" duration="248000" />
+      <workItem from="1578013893773" duration="1013000" />
+      <workItem from="1578058822297" duration="74000" />
+      <workItem from="1578116179313" duration="565000" />
+      <workItem from="1578116764682" duration="74000" />
+      <workItem from="1578116860834" duration="85000" />
+      <workItem from="1578116986453" duration="255000" />
+      <workItem from="1578190572573" duration="17667000" />
+      <workItem from="1578226323860" duration="133000" />
+      <workItem from="1578226631767" duration="1775000" />
     </task>
     <task id="LOCAL-00001" summary="解决500错误">
       <created>1576506806146</created>
@@ -941,33 +666,39 @@
       <option name="project" value="LOCAL" />
       <updated>1577783499546</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="解决问题：1，删除还有成员的部门，报错.2，二维码显示内容延迟。">
+      <created>1577935871715</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1577935871715</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223191000" />
+    <option name="totallyTimeSpent" value="245283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.50236964" side_tool="true" weight="0.30410448" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50236964" side_tool="true" weight="0.30410448" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49763033" visible="true" weight="0.22818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49763033" visible="true" weight="0.28322148" />
       <window_info id="Structure" order="6" weight="0.25" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32861635" />
-      <window_info anchor="bottom" id="Messages" order="1" weight="0.14779875" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.30029586" />
       <window_info anchor="bottom" id="Java Enterprise" order="2" weight="0.32861635" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.1687898" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32704404" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32861635" />
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.28490028" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.46723646" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.2736573" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32905984" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
@@ -989,6 +720,8 @@
       <window_info anchor="right" id="Mybatis datasource" order="11" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.32929105" />
       <window_info anchor="right" id="Bean Validation" order="13" />
+      <window_info anchor="right" id="BPMNPalette" order="14" />
+      <window_info anchor="right" id="Translation Assistant" order="15" weight="0.32992566" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1055,7 +788,8 @@
     <MESSAGE value="登陆界面优化" />
     <MESSAGE value="人脸登陆成功后，成功跳转到个人中心" />
     <MESSAGE value="加入扫描查看详情功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入扫描查看详情功能" />
+    <MESSAGE value="解决问题：1，删除还有成员的部门，报错.2，二维码显示内容延迟。" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决问题：1，删除还有成员的部门，报错.2，二维码显示内容延迟。" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1065,156 +799,13 @@
     <SUITE FILE_PATH="coverage/oa$department_list_jsp.ic" NAME="department_list.jsp Coverage Results" MODIFIED="1577096155505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/GlobalBizImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/ClaimVoucherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/FaceSpot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="77" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/GlobalBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/change_password.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_self.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/stock/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/stock/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/stock/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/stock/4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/stock/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0-sources.jar!/javax/servlet/http/HttpSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="140" column="18" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/zxing/core/3.2.1/core-3.2.1.jar!/com/google/zxing/qrcode/QRCodeWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="24" column="85" lean-forward="true" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/zxing/javase/3.2.1/javase-3.2.1.jar!/com/google/zxing/client/j2se/MatrixToImageWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="53" column="85" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0-sources.jar!/javax/servlet/http/HttpSession.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/zxing/core/3.2.1/core-3.2.1.jar!/com/google/zxing/qrcode/QRCodeWriter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/zxing/javase/3.2.1/javase-3.2.1.jar!/com/google/zxing/client/j2se/MatrixToImageWriter.class" />
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1232,22 +823,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/emp/emp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="173" column="53" lean-forward="true" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/logos/logo_grey.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/logos/logo_white.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/emp/emp.png" />
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/logos/logo_grey.png" />
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/logos/logo_white.png" />
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/faceLogin.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1257,21 +835,13 @@
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/profile_avatar.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/2.jpg" />
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/4.jpg" />
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/6.jpg" />
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1294,17 +864,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java">
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/department_list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="2014">
+          <caret line="131" column="75" selection-start-line="131" selection-start-column="75" selection-end-line="131" selection-end-column="75" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/EmployeeBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_biz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/FaceSpot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="77" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk/src.jar!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk/src.jar!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="360" column="26" selection-start-line="360" selection-start-column="26" selection-end-line="360" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk/src.jar!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="1432" column="46" selection-start-line="1432" selection-start-column="46" selection-end-line="1432" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk/src.jar!/java/text/ParsePosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/oa_web.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/ClaimVoucher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/ClaimVoucherBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/department_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/claim_voucher_self.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/global/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#654#655#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
@@ -1314,34 +1031,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/impl/ClaimVoucherBizImpl.java">
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/lucene/EmpIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="131" column="75" lean-forward="true" selection-start-line="131" selection-start-column="75" selection-end-line="131" selection-end-column="75" />
+        <state relative-caret-position="1222">
+          <caret line="165" column="59" lean-forward="true" selection-start-line="165" selection-start-column="59" selection-end-line="165" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/department_list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java">
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/FaceLoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="95" column="30" lean-forward="true" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+        <state relative-caret-position="133">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/ClaimVoucherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/self.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="304">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="e#1684#1705#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/DepartmentController.java">
+    <entry file="file://$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/GloablController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        <state relative-caret-position="245">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
         </state>
       </provider>
     </entry>

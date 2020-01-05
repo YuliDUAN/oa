@@ -52,5 +52,15 @@
     <orderEntry type="library" name="Maven: com.google.zxing:core:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.zxing:javase:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: com.beust:jcommander:1.48" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-smartcn:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-sandbox:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-highlighter:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-join:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-memory:5.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
   </component>
 </module>
