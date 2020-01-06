@@ -83,8 +83,8 @@
                                 <span class="badge badge-warning mr10 fs11">${emp.post}</span>
                             </td>
                             <td>
-                                <a href="#">编辑</a>
-                                <a href="#">删除</a>
+                                <a href="/employee/to_update?sn=${emp.sn}">编辑</a>
+                                <a href="/employee/remove?sn=${emp.sn}">删除</a>
                             </td>
                         </tr>
                         </c:forEach>

@@ -1,8 +1,6 @@
 package com.dk.oa.lucene;
 
-import com.dk.oa.entity.ClaimVoucher;
 import com.dk.oa.entity.Employee;
-import com.dk.oa.global.DateUtil;
 import com.dk.oa.global.StringUtil;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
@@ -16,7 +14,6 @@ import org.apache.lucene.store.FSDirectory;
 
 import java.io.StringReader;
 import java.nio.file.Paths;
-import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
