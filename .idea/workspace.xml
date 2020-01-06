@@ -6,14 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="解决问题：1，加入天气.2，全局搜索的工具类。">
-      <change afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list_serch.jsp" afterDir="false" />
+    <list default="true" id="04b734ca-ae5b-4109-b29f-1d14d6248018" name="Default" comment="解决问题：全局搜索但是仅能通过id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/lucene/EmpIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/lucene/EmpIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/oa_web/target/classes/com/dk/oa/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,7 +32,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -48,6 +43,15 @@
                 <element signature="e#988#1073#0#HTML" expanded="true" />
                 <element signature="e#785#815#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -119,7 +123,6 @@
       <list>
         <option value="$PROJECT_DIR$/oa_dao/src/main/resources/com/dk/oa/dao/EmployeeDao.xml" />
         <option value="$PROJECT_DIR$/oa_biz/src/main/java/com/dk/oa/biz/DepartmentBiz.java" />
-        <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/global/Contant.java" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/ClaimVoucherDao.java" />
         <option value="$PROJECT_DIR$/oa_dao/src/main/java/com/dk/oa/dao/ClaimVoucherItemDao.java" />
@@ -168,6 +171,7 @@
         <option value="$PROJECT_DIR$/oa_web/src/main/java/com/dk/oa/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list_serch.jsp" />
         <option value="$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/pages/employee_list.jsp" />
+        <option value="$PROJECT_DIR$/LICENSE" />
       </list>
     </option>
   </component>
@@ -196,8 +200,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="126" />
-    <option name="y" value="53" />
+    <option name="x" value="325" />
+    <option name="y" value="21" />
     <option name="width" value="1420" />
     <option name="height" value="1015" />
   </component>
@@ -598,7 +602,7 @@
       <workItem from="1578190572573" duration="17667000" />
       <workItem from="1578226323860" duration="133000" />
       <workItem from="1578226631767" duration="3910000" />
-      <workItem from="1578268636680" duration="7176000" />
+      <workItem from="1578268636680" duration="7350000" />
     </task>
     <task id="LOCAL-00001" summary="解决500错误">
       <created>1576506806146</created>
@@ -712,14 +716,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578232094926</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="解决问题：全局搜索但是仅能通过id">
+      <created>1578275921684</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578275921684</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254594000" />
+    <option name="totallyTimeSpent" value="254768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="43" width="1136" height="812" extended-state="0" />
+    <frame x="451" y="10" width="1136" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.50236964" side_tool="true" weight="0.30410448" />
@@ -830,7 +841,8 @@
     <MESSAGE value="加入扫描查看详情功能" />
     <MESSAGE value="解决问题：1，删除还有成员的部门，报错.2，二维码显示内容延迟。" />
     <MESSAGE value="解决问题：1，加入天气.2，全局搜索的工具类。" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决问题：1，加入天气.2，全局搜索的工具类。" />
+    <MESSAGE value="解决问题：全局搜索但是仅能通过id" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决问题：全局搜索但是仅能通过id" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -840,7 +852,6 @@
     <SUITE FILE_PATH="coverage/oa$department_list_jsp.ic" NAME="department_list.jsp Coverage Results" MODIFIED="1577096155505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/logos/logo_grey.png" />
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/logos/logo_white.png" />
     <entry file="file://$PROJECT_DIR$/oa_web/src/main/webapp/assets/img/avatars/faceLogin.png">
       <provider selected="true" editor-type-id="images" />
@@ -1148,6 +1159,13 @@
             <element signature="e#988#1073#0#HTML" expanded="true" />
             <element signature="e#785#815#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>
