@@ -89,8 +89,6 @@ public class EmployeeController {
         mav.addObject("resultTotal",employeeList.size());
         mav.addObject("pageTitle","搜索的关键字"+'q'+"的结果");
         mav.setViewName("employee_list_serch");
-        System.out.println(employeeList);
-        System.out.println(employeeList.size());
         return mav;
     }
 }

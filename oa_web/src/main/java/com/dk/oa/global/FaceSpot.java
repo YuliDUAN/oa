@@ -150,7 +150,7 @@ public class FaceSpot {
         }
         options.put("max_user_num", "1");
         JSONObject res = client.search(imgStr, imageType, groupIdList, options);
-        System.out.println(res.toString(2));
+        //System.out.println(res.toString(2));
         return res;
     }
 

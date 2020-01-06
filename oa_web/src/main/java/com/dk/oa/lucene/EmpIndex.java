@@ -64,11 +64,11 @@ public class EmpIndex {
         //工号sn
         doc.add(new StringField("sn",String.valueOf(employee.getSn()), Field.Store.YES));
         //姓名name
-        doc.add(new TextField("name",employee.getName(),Field.Store.YES));
+        doc.add(new StringField("name",employee.getName(),Field.Store.YES));
         //部门departmentSn
-        doc.add(new TextField("departmentSn", employee.getDepartmentSn(),Field.Store.YES));
+        doc.add(new StringField("departmentSn", employee.getDepartmentSn(),Field.Store.YES));
         //职位post
-        doc.add(new TextField("post",employee.getPost(),Field.Store.YES));
+        doc.add(new StringField("post",employee.getPost(),Field.Store.YES));
         writer.updateDocument(new Term("sn",String.valueOf(employee.getSn())),doc);
         writer.close();
     }

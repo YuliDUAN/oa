@@ -36,9 +36,7 @@ public class FaceLoginServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		String img = request.getParameter("img");
 		JSONObject js = FaceSpot.searchFace(img, "yuriDuan", "1000");
-		System.out.println(js.toString(2));
 		out.print(js);
-
 	}
 
 }
