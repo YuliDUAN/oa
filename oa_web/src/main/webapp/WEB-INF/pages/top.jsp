@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/skin/default_skin/css/theme.css">
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/admin-tools/admin-forms/css/admin-forms.css">
-    <link rel="shortcut icon" href="/assets/img/avatars/favicon.ico">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/assets/img/avatars/favicon.ico">
 </head>
 
 <body class="admin-validation-page" data-spy="scroll" data-target="#nav-spy" data-offset="200">
@@ -23,8 +23,8 @@
         </div>
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown menu-merge">
-                <a href="#" class="dropdown-toggle fw600 p15" data-toggle="dropdown">
-                    <img src="/assets/img/avatars/5.jpg" alt="avatar" class="mw30 br64">
+                <a href="/self" class="dropdown-toggle fw600 p15" data-toggle="dropdown">
+                    <img src="${pageContext.request.contextPath}/assets/img/avatars/5.jpg" alt="avatar" class="mw30 br64">
                     <span class="hidden-xs pl15"> ${sessionScope.employee.name} </span>
                     <span class="caret caret-tp hidden-xs"></span>
                 </a>

@@ -6,7 +6,7 @@
 <script type="text/javascript">
     function checkData() {
         var q = document.getElementById("q").value.trim();
-        if (q==null||q==""){
+        if (q==null||q == ""){
             alert("请输入要查询的关键字！")
             return false;
         } else {
@@ -17,15 +17,12 @@
 <section id="content" class="table-layout animated fadeIn">
     <div class="tray tray-center">
         <div class="content-header">
-            <h2> 员工列表 </h2>
+            <h2> 搜索&nbsp;<font color="red">${q}</font>&nbsp; 的结果</h2>
             <p class="lead"></p>
         </div>
-        <form:form method="post" action="/employee/q" onsubmit="return checkData()">
-            <div class="admin-form theme-primary mw1000 center-block" style="margin-bottom: 10px">
-                <input type="text" style="height: 30px;border-radius:3px;border:1px solid #ffffff" name="q" id="q"  placeholder="请输入关键字">
-                <button type="submit" style="height: 30px;border-radius:3px;border:1px solid #ffffff;background-color: #4b8adc"><font color="white">搜索</font> </button>
-            </div>
-        </form:form>
+        <div class="admin-form theme-primary mw1000 center-block">
+            <label>共得到&nbsp;<font color="red">${resultTotal}</font>&nbsp;条记录</label>
+        </div>
         <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
             <div class="panel  heading-border">
                 <div class="panel-menu">
@@ -62,32 +59,39 @@
                             <th class="text-center hidden-xs">Select</th>
                             <th class="hidden-xs">工号</th>
                             <th class="hidden-xs">姓名</th>
-                            <th class="hidden-xs">所属部门</th>
+                            <th class="hidden-xs">部门ID</th>
                             <th class="hidden-xs">职务</th>
                             <th>操作</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <c:forEach items="${list}" var="emp">
-                        <tr class="message-unread">
-                            <td class="hidden-xs">
-                                <label class="option block mn">
-                                    <input type="checkbox" name="mobileos" value="FR">
-                                    <span class="checkbox mn"></span>
-                                </label>
-                            </td>
-                            <td>${emp.sn}</td>
-                            <td>${emp.name}</td>
-                            <td class="text-center fw600">${emp.department.name}</td>
-                            <td class="hidden-xs">
-                                <span class="badge badge-warning mr10 fs11">${emp.post}</span>
-                            </td>
-                            <td>
-                                <a href="#">编辑</a>
-                                <a href="#">删除</a>
-                            </td>
-                        </tr>
-                        </c:forEach>
+                        <c:choose>
+                            <c:when test="${resultTotal==0}">
+                                <td class="hidden-xs">未查询到结果</td>
+                            </c:when>
+                            <c:otherwise>
+                                <c:forEach items="${result}" var="emp">
+                                    <tr class="message-unread">
+                                        <td class="hidden-xs">
+                                            <label class="option block mn">
+                                                <input type="checkbox" name="mobileos" value="FR">
+                                                <span class="checkbox mn"></span>
+                                            </label>
+                                        </td>
+                                        <td>${emp.sn}</td>
+                                        <td>${emp.name}</td>
+                                        <td class="text-center fw600">${emp.departmentSn}</td>
+                                        <td class="hidden-xs">
+                                            <span class="badge badge-warning mr10 fs11">${emp.post}</span>
+                                        </td>
+                                        <td>
+                                            <a href="/employee/to_update?sn=${emp.sn}">编辑</a>
+                                            <a href="/employee/remove?sn=${emp.sn}">删除</a>
+                                        </td>
+                                    </tr>
+                                </c:forEach>
+                            </c:otherwise>
+                        </c:choose>
                         </tbody>
                     </table>
                 </div>
