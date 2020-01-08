@@ -62,5 +62,8 @@
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-join:7.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-memory:7.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 7.0.56" level="application_server_libraries" />
+    <orderEntry type="library" name="IK-Analyzer-1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="aip-java-sdk-4.11.1" level="project" />
   </component>
 </module>

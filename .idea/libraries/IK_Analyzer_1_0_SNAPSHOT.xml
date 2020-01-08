@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="IK-Analyzer-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/oa_web/src/main/webapp/WEB-INF/lib/IK-Analyzer-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

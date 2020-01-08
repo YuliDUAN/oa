@@ -2,6 +2,7 @@ package com.dk.oa.lucene;
 
 import com.dk.oa.entity.Employee;
 import com.dk.oa.global.StringUtil;
+import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.cn.smart.SmartChineseAnalyzer;
 import org.apache.lucene.document.*;
@@ -11,6 +12,7 @@ import org.apache.lucene.search.*;
 import org.apache.lucene.search.highlight.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.wltea.analyzer.lucene.IKAnalyzer;
 
 import java.io.StringReader;
 import java.nio.file.Paths;
@@ -30,7 +32,7 @@ public class EmpIndex {
     private IndexWriter getWrite() throws Exception{
 
         dir = FSDirectory.open(Paths.get(lucenePath,new String[0]));
-        SmartChineseAnalyzer analyzer = new SmartChineseAnalyzer();
+        Analyzer analyzer = new IKAnalyzer();
         IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
         IndexWriter writer = new IndexWriter(dir,iwc);
         return writer;
@@ -42,13 +44,13 @@ public class EmpIndex {
         IndexWriter writer = getWrite();
         Document doc = new Document();
         //工号sn
-        doc.add(new StringField("sn",String.valueOf(employee.getSn()), Field.Store.YES));
+        doc.add(new StringField("sn",employee.getSn(), Field.Store.YES));
         //姓名name
-        doc.add(new TextField("name",employee.getName(),Field.Store.YES));
+        doc.add(new StringField("name",employee.getName(),Field.Store.YES));
         //部门departmentSn
-        doc.add(new TextField("departmentSn", employee.getDepartmentSn(),Field.Store.YES));
+        doc.add(new StringField("departmentSn", employee.getDepartmentSn(),Field.Store.YES));
         //职位post
-        doc.add(new TextField("post",employee.getPost(),Field.Store.YES));
+        doc.add(new StringField("post",employee.getPost(),Field.Store.YES));
         writer.addDocument(doc);
         writer.close();
     }
@@ -59,14 +61,14 @@ public class EmpIndex {
         IndexWriter writer = getWrite();
         Document doc = new Document();
         //工号sn
-        doc.add(new StringField("sn",String.valueOf(employee.getSn()), Field.Store.YES));
+        doc.add(new StringField("sn",employee.getSn(), Field.Store.YES));
         //姓名name
         doc.add(new StringField("name",employee.getName(),Field.Store.YES));
         //部门departmentSn
         doc.add(new StringField("departmentSn", employee.getDepartmentSn(),Field.Store.YES));
         //职位post
         doc.add(new StringField("post",employee.getPost(),Field.Store.YES));
-        writer.updateDocument(new Term("sn",String.valueOf(employee.getSn())),doc);
+        writer.updateDocument(new Term("sn",employee.getSn()),doc);
         writer.close();
     }
     /*
@@ -96,15 +98,15 @@ public class EmpIndex {
         //根据原因查询
         QueryParser parser = new QueryParser("sn",analyzer);
         Query query = parser.parse(q);
-        //根据创建时间查询
+        //根据姓名查询
         QueryParser parser2 = new QueryParser("name",analyzer);
-        Query query2 = parser.parse(q);
-        //根据报销金额查询
-        QueryParser parser3 = new QueryParser("departmentSn",analyzer);
-        Query query3 = parser.parse(q);
-        //根据状态查询
+        Query query2 = parser2.parse(q);
+        //根据部门编号查询
+        QueryParser parser3 = new QueryParser("department",analyzer);
+        Query query3 = parser3.parse(q);
+        //根据职位查询
         QueryParser parser4 = new QueryParser("post",analyzer);
-        Query query4 = parser.parse(q);
+        Query query4 = parser4.parse(q);
 
         //并列条件，或者关系
         booleanQuery.add(query, BooleanClause.Occur.SHOULD);
