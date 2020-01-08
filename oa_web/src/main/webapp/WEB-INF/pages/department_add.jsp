@@ -7,7 +7,7 @@
             <h2> 添加部门 </h2>
             <p class="lead"></p>
         </div>
-        <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
+        <div class="admin-form theme-primary mw1200 center-block" style="padding-bottom: 175px;">
             <div class="panel heading-border">
                 <form:form action="/department/add" modelAttribute="department"  id="admin-form" name="addForm">
                     <div class="panel-body bg-light">

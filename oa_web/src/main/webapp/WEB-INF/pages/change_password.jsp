@@ -7,9 +7,9 @@
             <h2> 修改密码 </h2>
             <p class="lead"></p>
         </div>
-        <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
-            <div class="panel heading-border">
-                <form method="post" action="change_password" id="admin-form">
+        <div class="admin-form theme-primary mw1200 center-block" style="padding-bottom: 175px;">
+            <div class="panel heading-border" style="border-radius:15px;">
+                <form method="post" action="change_password" id="admin-form" >
                     <div class="panel-body bg-light">
                         <div class="section-divider mt20 mb40">
                             <span> 基本信息 </span>

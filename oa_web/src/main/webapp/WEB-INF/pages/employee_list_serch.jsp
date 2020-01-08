@@ -20,10 +20,10 @@
             <h2> 搜索&nbsp;<font color="red">${q}</font>&nbsp; 的结果</h2>
             <p class="lead"></p>
         </div>
-        <div class="admin-form theme-primary mw1000 center-block">
+        <div class="admin-form theme-primary mw1200 center-block">
             <label>共得到&nbsp;<font color="red">${resultTotal}</font>&nbsp;条记录</label>
         </div>
-        <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
+        <div class="admin-form theme-primary mw1200 center-block" style="padding-bottom: 175px;">
             <div class="panel  heading-border">
                 <div class="panel-menu">
                     <div class="row">

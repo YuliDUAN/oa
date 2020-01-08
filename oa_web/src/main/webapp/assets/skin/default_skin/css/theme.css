@@ -18576,7 +18576,7 @@ body.sb-top #toggle_sidemenu_t {
 #content.table-layout > div,
 #content.table-layout > section {
   vertical-align: top;
-  padding: 25px 20px 50px;
+  padding: 5px 20px 50px;
 }
 #content.table-layout > aside {
   vertical-align: top;

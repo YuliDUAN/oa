@@ -21,12 +21,12 @@
             <p class="lead"></p>
         </div>
         <form:form method="post" action="/employee/q" onsubmit="return checkData()">
-            <div class="admin-form theme-primary mw1000 center-block" style="margin-bottom: 10px">
+            <div class="admin-form theme-primary mw1200 center-block" style="margin-bottom: 10px">
                 <input type="text" style="height: 30px;border-radius:3px;border:1px solid #ffffff" name="q" id="q"  placeholder="请输入关键字">
                 <button type="submit" style="height: 30px;border-radius:3px;border:1px solid #ffffff;background-color: #4b8adc"><font color="white">搜索</font> </button>
             </div>
         </form:form>
-        <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
+        <div class="admin-form theme-primary mw1200 center-block" style="padding-bottom: 175px;">
             <div class="panel  heading-border">
                 <div class="panel-menu">
                     <div class="row">

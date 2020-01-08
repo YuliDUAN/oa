@@ -53,9 +53,9 @@
             <p class="lead"></p>
         </div>
 
-        <div class="admin-form theme-primary mw1000 center-block" style="padding-bottom: 175px;">
-            <div class="panel heading-border">
-                <div class="panel-body bg-light">
+        <div class="admin-form theme-primary mw1200 center-block" style="padding-bottom: 175px;">
+            <div class="panel heading-border" style="border-radius:15px;">
+                <div class="panel-body bg-light" style="border-radius:15px;">
                     <div class="section-divider mt20 mb40">
                         <span> 基本信息 </span>
                     </div>

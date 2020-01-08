@@ -1,8 +1,6 @@
 package com.dk.oa.entity;
 
-import java.io.Serializable;
-
-public class Employee implements Serializable {
+public class Employee {
     private String sn;
 
     private String password;
